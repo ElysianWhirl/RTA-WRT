@@ -699,7 +699,7 @@ rebuild_firmware() {
     # Default
     PACKAGES+=" -dnsmasq dnsmasq-full cgi-io libiwinfo libiwinfo-data libiwinfo-lua liblua \
     luci-base luci-lib-base luci-lib-ip luci-lib-jsonc luci-lib-nixio luci-mod-admin-full \
-    luci-app-temp-status cpusage ttyd dmesg kmod-tun luci-lib-ipkg \
+    luci-app-temp-status cpusage ttyd dmesg kmod-tun luci-lib-ipkg kmod-macvlan \
     zram-swap adb parted losetup resize2fs luci luci-ssl block-mount htop bash curl wget-ssl \
     tar unzip unrar gzip jq luci-app-ttyd nano httping screen openssh-sftp-server \
     liblucihttp liblucihttp-lua libubus-lua lua luci-app-firewall luci-app-opkg \
