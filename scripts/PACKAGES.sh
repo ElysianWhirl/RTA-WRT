@@ -95,7 +95,6 @@ declare -a packages_custom=(
     "luci-app-log-viewer|${REPOS[GSPOTX2F]}"
     "luci-app-temp-status|${REPOS[GSPOTX2F]}"
 
-    "luci-app-netspeedtest|${REPOS[FANTASTIC]}/luci"
 )
 
 # Enhanced package verification function
