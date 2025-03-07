@@ -549,7 +549,6 @@ custom_packages() {
         "luci-theme-alpha|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "luci-app-adguardhome|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "adguardhome|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
-        "luci-app-netspeedtest|https://fantastic-packages.github.io/packages/releases/$CURVER/packages/x86_64/luci"
         "sing-box|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "mihomo|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         
@@ -762,7 +761,7 @@ rebuild_firmware() {
         # Docker
         PACKAGES+=" docker docker-compose dockerd luci-app-dockerman"
         # Speedtest
-        PACKAGES+=" librespeed-go python3-speedtest-cli iperf3-ssl luci-app-netspeedtest"
+        PACKAGES+=" librespeed-go python3-speedtest-cli iperf3-ssl"
 
 
         # Disable service
