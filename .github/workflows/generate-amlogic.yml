@@ -304,7 +304,7 @@ jobs:
             echo "Packaging images for: $tunnel"
             
             git clone --depth 1 https://github.com/ophub/amlogic-s9xxx-openwrt.git
-            mkdir -p amlogic-s9xxx-openwrt/openwrt-armvirt
+            mkdir -p amlogic-s9xxx-openwrt/openwrt-armsr
             
             for file in compiled_images/*_${tunnel}.tar.gz; do
               if [ -f "$file" ]; then
