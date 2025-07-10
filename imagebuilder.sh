@@ -543,7 +543,7 @@ custom_packages() {
         "modeminfo|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "luci-app-modeminfo|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "atinout|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
-        "luci-app-poweroff|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
+        "luci-app-poweroffdevice|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "xmm-modem|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "luci-app-lite-watchdog|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "luci-theme-alpha|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
@@ -749,7 +749,7 @@ rebuild_firmware() {
     PACKAGES+=" php8 php8-fastcgi php8-fpm php8-mod-session php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstring"
 
     # More
-    PACKAGES+=" luci-app-poweroff luci-app-log-viewer luci-app-ramfree"
+    PACKAGES+=" luci-app-poweroffdevice luci-app-log-viewer luci-app-ramfree"
 
     if [[ "$op_fiturs" == "full-fitur" ]]; then
         # Python3
