@@ -310,7 +310,7 @@ jobs:
               if [ -f "$file" ]; then
                 mv "$file" amlogic-s9xxx-openwrt/openwrt-armsr/RTA-WRT_openwrt-armsr-armv8-generic-rootfs.tar.gz
                 cd amlogic-s9xxx-openwrt
-                sudo ./remake -b ${{ env.openwrt_board }} -k ${{ inputs.openwrt_kernel }} -s 1024
+                sudo ./remake -b ${{ env.openwrt_board }} -k ${{ inputs.openwrt_kernel }} -s 2048
                 
                 # Cari file output dan pindahkan
                 find ./openwrt/out/ -name "*.img.gz" | while read FILE_PATH; do
