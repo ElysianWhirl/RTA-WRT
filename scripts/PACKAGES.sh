@@ -45,7 +45,7 @@ declare -a packages_custom=(
     "tailscale|${REPOS[OPENWRT]}/packages"
     "python3-speedtest-cli|${REPOS[OPENWRT]}/packages"
 
-    "luci-app-tailscale|${REPOS[KIDDIN9]}"
+    "luci-app-tailscale-community|${REPOS[KIDDIN9]}"
     "luci-app-diskman|${REPOS[KIDDIN9]}"
     "modeminfo-serial-zte|${REPOS[KIDDIN9]}"
     "modeminfo-serial-gosun|${REPOS[KIDDIN9]}"
