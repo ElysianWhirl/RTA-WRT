@@ -98,7 +98,7 @@ handle_tunnel_option() {
 }
 
 # Remote Services
-PACKAGES+=" luci-app-zerotier luci-app-cloudflared tailscale luci-app-tailscale"
+PACKAGES+=" luci-app-zerotier luci-app-cloudflared tailscale luci-app-tailscale-community"
 
 # NAS and Hard disk tools
 PACKAGES+=" luci-app-diskman luci-app-disks-info smartmontools kmod-usb-storage kmod-usb-storage-uas ntfs-3g"
