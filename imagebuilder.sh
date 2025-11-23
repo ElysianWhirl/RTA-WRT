@@ -521,7 +521,7 @@ custom_packages() {
         "luci-app-openclash|https://downloads.immortalwrt.org/releases/packages-$CURVER/$ARCH_3/luci"
         "luci-app-passwall|https://downloads.immortalwrt.org/releases/packages-$CURVER/$ARCH_3/luci"
         
-        "luci-app-tailscale|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
+        "luci-app-tailscale-community|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "luci-app-diskman|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "modeminfo-serial-zte|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
         "modeminfo-serial-gosun|https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
@@ -734,7 +734,7 @@ rebuild_firmware() {
     NEKOCLASH+="kmod-tun bash curl jq mihomo sing-box php8 php8-mod-curl luci-app-neko"
 
     # Remote Services
-    PACKAGES+=" luci-app-zerotier luci-app-cloudflared tailscale luci-app-tailscale"
+    PACKAGES+=" luci-app-zerotier luci-app-cloudflared tailscale luci-app-tailscale-community"
 
     # NAS and Hard disk tools
     PACKAGES+=" luci-app-diskman luci-app-disks-info smartmontools kmod-usb-storage kmod-usb-storage-uas ntfs-3g"
