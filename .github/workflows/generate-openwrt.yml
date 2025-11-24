@@ -335,7 +335,7 @@ jobs:
         if: success()
         with:
           name: firmware-${{ matrix.device }}-${{ matrix.fitur }}
-          path: imagebuilder/out_firmware/*
+          path: scripts/imagebuilder/out_firmware/*
           retention-days: 5
 
       - name: Remove Build Artifacts
