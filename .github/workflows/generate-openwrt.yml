@@ -320,7 +320,7 @@ jobs:
       - name: Before Upload
         run: |
           sudo find scripts/imagebuilder/out_firmware/ -type f ! -name "RTA-WRT*" -exec rm -rf {} +
-          ls -l imagebuilder/out_firmware/
+          ls -l scripts/imagebuilder/out_firmware/
 
       - name: Upload Build Status
         uses: actions/upload-artifact@v4
