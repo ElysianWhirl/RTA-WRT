@@ -319,7 +319,7 @@ jobs:
 
       - name: Before Upload
         run: |
-          sudo find imagebuilder/out_firmware/ -type f ! -name "RTA-WRT*" -exec rm -rf {} +
+          sudo find scripts/imagebuilder/out_firmware/ -type f ! -name "RTA-WRT*" -exec rm -rf {} +
           ls -l imagebuilder/out_firmware/
 
       - name: Upload Build Status
