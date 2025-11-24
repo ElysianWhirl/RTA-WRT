@@ -978,7 +978,7 @@ repackwrt() {
         if ! sudo ./ulo -y -m "${target_board}" -r "${rootfs_basename}" -k "${target_kernel}" -s 1024; then
             error_msg "UloBuilder execution failed"
         fi
-        device_output_dir="./out/"
+        device_output_dir="./out"
     fi
 
     # Verify and copy output files
