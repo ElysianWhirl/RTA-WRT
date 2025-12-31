@@ -82,7 +82,7 @@ declare -a packages_custom=(
     "luci-app-modemband|${REPOS[KIDDIN9]}"
     "luci-app-sms-tool-js|${REPOS[KIDDIN9]}"
     "dns2tcp|${REPOS[KIDDIN9]}"
-    "luci-app-argon-config|${REPOS[KIDDIN9]}"
+    #"luci-app-argon-config|${REPOS[KIDDIN9]}"
     "luci-theme-argon|${REPOS[KIDDIN9]}"
     "luci-app-openclash|${REPOS[KIDDIN9]}"
     "luci-app-passwall|${REPOS[KIDDIN9]}"
