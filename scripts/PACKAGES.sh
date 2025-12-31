@@ -27,7 +27,7 @@ packages_github+=(
 # Define repositories with proper quoting
 declare -A REPOS
 REPOS=(
-    ["KIDDIN9"]="https://dl.openwrt.ai/releases/24.10/packages/$ARCH_3/kiddin9"
+    ["KIDDIN9"]="https://dl.openwrt.ai/releases/25.12/packages/$ARCH_3/kiddin9"
     ["IMMORTALWRT"]="https://downloads.immortalwrt.org/releases/packages-$VEROP/$ARCH_3"
     ["OPENWRT"]="https://downloads.openwrt.org/releases/packages-$VEROP/$ARCH_3"
     ["GSPOTX2F"]="https://github.com/gSpotx2f/packages-openwrt/raw/refs/heads/master/current"
