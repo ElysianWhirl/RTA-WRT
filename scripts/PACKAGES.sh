@@ -87,13 +87,13 @@ declare -a packages_custom=(
     "luci-app-openclash|${REPOS[IMMORTALWRT]}/luci"
     "luci-app-passwall|${REPOS[IMMORTALWRT]}/luci"
 
-    "luci-app-internet-detector|${REPOS[GSPOTX2F]}"
-    "internet-detector|${REPOS[GSPOTX2F]}"
-    "internet-detector-mod-modem-restart|${REPOS[GSPOTX2F]}"
-    "luci-app-cpu-status-mini|${REPOS[GSPOTX2F]}"
-    "luci-app-disks-info|${REPOS[GSPOTX2F]}"
-    "luci-app-log-viewer|${REPOS[GSPOTX2F]}"
-    "luci-app-temp-status|${REPOS[GSPOTX2F]}"
+    "luci-app-internet-detector|${REPOS[KIDDIN9]}"
+    "internet-detector|${REPOS[KIDDIN9]}"
+    "internet-detector-mod-modem-restart|${REPOS[KIDDIN9]}"
+    "luci-app-cpu-status-mini|${REPOS[KIDDIN9]}"
+    "luci-app-disks-info|${REPOS[KIDDIN9]}"
+    "luci-app-log-viewer|${REPOS[KIDDIN9]}"
+    "luci-app-temp-status|${REPOS[KIDDIN9]}"
 
 )
 
