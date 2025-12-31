@@ -195,6 +195,7 @@ jobs:
           # Determine archive extension
           CURVER=$(echo "${{ env.BRANCH }}" | cut -d'.' -f1)
           archive_ext=$([ "${CURVER}" == "24" ] && echo "tar.zst" || echo "tar.xz")
+          archive_ext=$([ "${CURVER}" == "25" ] && echo "tar.zst" || echo "tar.xz")
 
           # Download image builder
           RELEASE="${{ env.DOWNLOAD_BASE }}/releases/${{ env.BRANCH }}/targets/${{ env.TARGET_SYSTEM }}/${{ env.BASE }}-imagebuilder-${{ env.BRANCH }}-${{ env.TARGET_NAME }}.Linux-x86_64.${archive_ext}"
